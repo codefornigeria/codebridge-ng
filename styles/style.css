@@ -21,56 +21,26 @@ a {
   font-weight: bolder;
 }
 
-.hero {
-  background: #fff;
-  height: 90vh;
-  width: 40%;
-  padding-top: 5vh;
-  padding-left: 30%;
-  padding-right: 30%;
-  padding-bottom: 5vh;
-  text-align: center;
-}
-
-.hero h1 {
-  font-size: 60px;
-  font-weight: lighter;
-  margin-top: 200px;
-  color: #252525;
-  -webkit-font-smoothing: antialiased;
-}
-
-.hero h2 {
-  font-size: 14px;
-  font-weight: lighter;
-  color: #868686;
-  letter-spacing: 1px;
-  line-height: 28px;
-  width: 70%;
-  margin: 10px auto;
-  padding-top: 20px;
-  border-top: 1px solid #F7F7F7;
-  -webkit-font-smoothing: antialiased;
-}
-
 .nav-bar {
   width: 90%;
-  height: 100px;
-  background: none;
+  height: 60px;
+  background: #F1F1F1;
   text-transform: uppercase;
-  line-height: 100px;
+  line-height: 60px;
   position: fixed;
+  z-index: 1;
   left: 0;
   top: 0;
   padding-left: 5%;
   padding-right: 5%;
   letter-spacing: 2px;
-  -webkit-font-smoothing: antialiased;
+  border-top: 2px solid #E6001C;
 }
 
 .nav-bar span {
   margin-right: 20px;
   font-size: 11px;
+  font-weight: bold;
 }
 
 .nav-bar span a {
@@ -121,6 +91,92 @@ a {
   top: 8px;
   left: 0;
   transition: all ease-in-out 0.3s;
+}
+
+.hero {
+  background: #fff;
+  height: 90vh;
+  width: 40%;
+  padding-top: 5vh;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-bottom: 5vh;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 60px;
+  font-weight: lighter;
+  margin-top: 200px;
+  color: #252525;
+  -webkit-font-smoothing: antialiased;
+}
+
+.hero h2 {
+  font-size: 14px;
+  font-weight: lighter;
+  color: #868686;
+  letter-spacing: 1px;
+  line-height: 28px;
+  width: 70%;
+  margin: 10px auto;
+  padding-top: 20px;
+  border-top: 1px solid #F7F7F7;
+  -webkit-font-smoothing: antialiased;
+}
+
+.about {
+  width: 60%;
+  height: auto;
+  background: #444444;
+  padding: 20%;
+  padding-top: 30vh;
+  padding-bottom: 30vh;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: 'ClearSansLight', Helvetica;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  line-height: 26px;
+  letter-spacing: .01rem;
+}
+
+.about p {
+  margin-bottom: 20px;
+}
+
+.partners {
+  width: 80%;
+  height: auto;
+  background: #fff;
+  padding: 10%;
+  float: left;
+}
+
+.partners h1 {
+  margin-bottom: 30px;
+}
+
+.partners .partner_logo {
+  width: 70%;
+  height: 200px;
+  margin: 0 auto;
+  background: none;
+}
+
+.partners img {
+  width: 200px;
+  float: left;
+  margin-right: 5%;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  background: #F1F1F1;
+  float: left;
 }
 
 .apply {
