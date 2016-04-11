@@ -1,0 +1,29 @@
+/* Webfont: ClearSans Regular*/
+
+@font-face {
+    font-family: 'ClearSansRegular';
+    src: url('ClearSans-Regular.eot');
+    /* IE9 Compat Modes */
+    src: url('ClearSans-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('ClearSans-Regular.woff') format('woff'), /* Modern Browsers */
+    url('ClearSans-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('ClearSans-Regular.svg#Calibre-Regular') format('svg');
+    /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'ClearSansLight';
+    src: url('ClearSans-light.eot');
+    /* IE9 Compat Modes */
+    src: url('ClearSans-light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('ClearSans-light.woff') format('woff'), /* Modern Browsers */
+    url('ClearSans-light.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('ClearSans-light.svg#ClearSans-light') format('svg');
+    /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
