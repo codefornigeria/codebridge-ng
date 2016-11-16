@@ -281,6 +281,18 @@ a:visited {
   background-position: center;
 }
 
+.section .hack {
+  background: url(../img/hack.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.section .data {
+  background: url(../img/data.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 .section .section-item {
   background-color: rgba(78, 77, 85, 0.3);
   color: #fff;
