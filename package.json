@@ -1,0 +1,29 @@
+{
+  "name": "Codebridge-ng",
+  "version": "1.0.0",
+   "engines": {
+    "node": "0.12.7"
+  },
+  "description": "Codebridge Website",
+  "main": "server.js",
+  "scripts": {
+    "test": "\"echo hello world\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codefornigeria/codebridge-ng.git"
+  },
+  "keywords": [
+    "prices",
+    "savings"
+  ],
+  "author": "temi adeoye , inioluwa adebanjo ,tobi oladele",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codefornigeria/codebridge-ng.git"
+  },
+  "homepage": "https://github.com/codefornigeria/codebridge-ng#readme",
+  "dependencies": {
+    "node-static": "^0.7.8"
+  }
+}
